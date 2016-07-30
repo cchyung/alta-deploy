@@ -1,0 +1,439 @@
+@font-face{
+    font-family: hallo;
+    src: url('hallo.otf')
+}
+
+@font-face{
+    font-family: code-bold;
+    src: url('code bold.otf')
+}
+
+@font-face{
+    font-family: code-light;
+    src: url('code light.otf')
+}
+
+@font-face{
+    font-family: nevis;
+    src: url('nevis.ttf')
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: nevis;
+}
+
+.secondary{
+    color:#4d79ff;
+}
+
+button{
+    padding: 12px 60px;
+    outline: solid 1px #4d79ff;
+    background-color: white;
+    border: 1px #4d79ff;
+    font-size: 100%;
+    font-family: nevis;
+    background-color: #4d79ff;
+    color:white;
+    font-family: inherit;
+    font-weight: 700;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.page{
+}
+
+.center{
+    text-align:center;
+}
+
+header{
+    top: -52px;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    font-size: 105%;
+    width: 100%;
+    height: 50px;
+    /*background-color:transparent;*/
+    background-color:white;
+    box-shadow: 1px 1px 5px grey;
+    transition: all 0.5s ease;
+}
+
+header.nav-fixed{
+    top: 0px;
+}
+
+header img{
+    height: 100%;
+
+    margin-right: -4px;
+
+}
+
+header ul{
+    float: right;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    margin-right: -4px;
+    /*text-transform: uppercase;*/
+    vertical-align: top;
+    width: 60%;
+    padding:0;
+    margin-left: auto;
+
+
+
+}
+
+header ul li{
+    margin-right: -4px;
+    display: inline-block;
+    width: 33%;
+    text-align:center;
+    height: 100%;
+
+}
+
+header ul li a {
+    text-transform: capitalize;
+    color: dimgrey;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.1s ease;
+
+}
+
+header ul li a:visited{
+    color:dimgrey;
+}
+
+header ul li a:hover{
+    color: #4d79ff;
+}
+
+.jumbo{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+
+.jumbo .bw{
+    filter: grayscale(100%);
+}
+
+.jumbo-text{
+    color:white;
+    margin: 0 auto;
+    text-align:center;
+    font-size: 400%;
+    width: 80%;
+}
+
+.jumbo-text-solid{
+    background-color: rgba(3, 3, 3, 0.7);
+
+}
+
+.jumbo-header{
+    margin: 50px 50px;
+    font-size: 100%;
+}
+
+.jumbo button{
+    padding: 12px 60px;
+    background-color: white;
+    border: 1px #4d79ff;
+    font-size: 30%;
+    font-family: nevis;
+    background-color: #4d79ff;
+    color:white;
+    font-family: inherit;
+    font-weight: 700;
+    margin: 50px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+button:hover{
+    background-color:white;
+    color: #4d79ff;
+}
+
+hr{
+    width: 80%;
+    margin:0 auto;
+}
+
+.section{
+    padding-bottom: 30px;
+}
+
+.section-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d79ff;
+    padding: 0;
+    height: 140px;
+    color:white;
+
+}
+
+.section-divider button{
+    margin-left: 40px;
+    padding: 10px 20px;
+    font-size: 110%;
+    background-color:white;
+    color: #4d79ff;
+
+}
+
+.section-divider button:hover{
+    color: #4d79ff;
+    background-color: #acc4ff;
+}
+
+
+.content-block-medium{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.content-block-small{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.content-column-3{
+  vertical-align:top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 33.33%;
+  margin-right: -4px;
+  display: inline-block;
+  text-align: center;
+}
+
+.emphasis{
+  color:#4d79ff;
+}
+
+
+h1{
+  font-size: 300%;
+}
+
+h2{
+  font-size: 200%;
+}
+
+h3{
+  font-size: 150%;
+}
+
+p{
+    font-size: 100%;
+}
+
+/*services*/
+.service{
+    padding: 0 12px;
+}
+
+.service img{
+    height: 64px;
+    width: 64px;
+}
+
+.service .name{
+    font-weight: 700;
+    font-size: 120%;
+}
+
+.service .content{
+    color: dimgrey;
+}
+
+
+/*testimonials*/
+.testimonial-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quote{
+    width: 475px;
+    height: 225px;
+    margin: 0 auto;
+
+}
+
+.quote p{
+    font-size: 120%;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote hr{
+    border : 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.quote p.name{
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*footer*/
+footer{
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-left: 40px;
+}
+
+footer a{
+    color: #4d79ff;
+}
+
+footer a:visited{
+    color: #4d79ff;
+}
+
+footer a:hover{
+    color: black;
+}
+
+footer img{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    left: 50%;
+}
+
+html{
+    position:relative;
+    min-height: 100%;
+}
+
+body{
+    margin-bottom: 50px;
+}
+
+
+/*contact*/
+.contact{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.contact form{
+    padding: 40px 70px;
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px 10px lightgrey;
+}
+
+.contact label{
+    display: block;
+    font-weight: 700;
+    font-size: 140%;
+    margin: 5px 0;
+}
+
+.contact input{
+    font-size: 110%;
+    padding: 5px 4px;
+    outline: none;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid lightgrey;
+    transition: all 0.2s ease;
+}
+
+.contact textarea{
+    font-size: 110%;
+    padding: 3px 4px;
+    outline: none;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid lightgrey;
+    transition: all 0.2s ease;
+    resize: none;
+    height: 200px;
+}
+
+.contact input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.contact button{
+    display: block;
+    margin: 10px auto;
+    font-size: 100%;
+
+}
+
+/*about*/
+.team{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.member{
+    width: 33.33%;
+    display: inline-block;
+    margin-right: -4px
+
+}
+
+.member img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.member p{
+    text-align:center;
+}
+
+.member p.name{
+    font-weight: 800;
+}
