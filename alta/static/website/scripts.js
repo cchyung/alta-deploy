@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 // navbar controller
 
-var OFFSET = 100;
+var OFFSET = 0;
 function navbarController() {
     var triggerPosition = $('.nav-trigger').position().top + OFFSET;
     $(window).on("scroll", function () {
