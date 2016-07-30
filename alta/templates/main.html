@@ -1,7 +1,9 @@
-{% extends 'website/base.html' %}
-{% load staticfiles %}
+{% extends 'base.html' %}
+{% load staticfiles cms_tags %}
 {% block main %}
-    {% placeholder 'feature' %}
+    <div>
+        {% placeholder 'feature' %}
+    </div>
     <div class="section">
         <div class="content-block-small">
             {% placeholder 'content' %}
