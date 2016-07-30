@@ -362,3 +362,12 @@ a:visited{
 footer a:hover{
     text-decoration: underline;
 }
+<<<<<<< HEAD
+=======
+
+.testimonial{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+>>>>>>> 324001e251cdafc1129ccc7cbc9e0e40662a39ca

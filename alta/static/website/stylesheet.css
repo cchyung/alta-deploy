@@ -437,3 +437,15 @@ body{
 .member p.name{
     font-weight: 800;
 }
+
+.testimonials{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.testimonial {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
