@@ -1,9 +1,7 @@
 {% extends 'base.html' %}
 {% load staticfiles cms_tags %}
 {% block main %}
-    <div class="jumbo" style="background-image:url({% static 'website/student.jpg' %}); height: 450px; background-position-y:-150px;">
-
-    </div>
+    {% placeholder 'feature' %}
     <div class="section">
         <div class="content-block-small">
             {% placeholder 'about' %}
@@ -12,10 +10,7 @@
     <hr>
     <div class="section">
         <div class="content-block-small">
-            <h1>Meet the Team</h1>
-            <div class="team">
-                {% placeholder 'team' %}
-            </div>
+            {% placeholder 'team' %}
         </div>
     </div>
 {% endblock %}
