@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div class="contact">
+        <h1 class="center">Contact Us</h1>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Your name...">
+            <label>Email</label>
+            <input type="email" placeholder="Your email...">
+            <label>Subject</label>
+            <input type="text" placeholder="The subject of your message...">
+            <label>Message</label>
+            <textarea placeholder="Type your message here..."></textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+{% endblock %}

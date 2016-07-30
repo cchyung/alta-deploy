@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load staticfiles cms_tags %}
+{% block main %}
+    <div>
+        {% placeholder 'feature' %}
+    </div>
+    <div class="section">
+        <div class="content-block-medium">
+            {% placeholder 'services' %}
+        </div>
+    </div>
+    <div class="section section-divider">
+        <h2>Want to work with us? Send us an email.</h2>
+        <button>Contact Us</button>
+    </div>
+    <div class="section">
+        <div class="content-block-medium">
+            {% placeholder 'testimonials' %}
+        </div>
+    </div>
+{% endblock %}
