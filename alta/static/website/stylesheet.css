@@ -29,6 +29,11 @@ h1, h2, h3, h4 {
     font-family: nevis;
 }
 
+.nav-trigger{
+    position: absolute;
+    top: 0px;
+}
+
 .secondary{
     color:#4d79ff;
 }

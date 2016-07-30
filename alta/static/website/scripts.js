@@ -8,12 +8,13 @@ $(document).ready(function () {
 
 // navbar controller
 
-var OFFSET = 200;
+var OFFSET = 100;
 function navbarController() {
     var triggerPosition = $('.nav-trigger').position().top + OFFSET;
     $(window).on("scroll", function () {
             var scrollPosition = scrollY || pageYOffset;
             if (scrollPosition > triggerPosition) {
+                console.log("triggered!")
                 $('header').addClass('nav-fixed');
                 var navHeight = $(".nav-container").css('height');
                 $('.nav-ghost').height(navHeight);
