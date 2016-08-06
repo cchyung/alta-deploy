@@ -1,373 +1,376 @@
-@font-face{
-  font-family: nevis;
-  src: url('/static/website/nevis.ttf')
+@font-face {
+    font-family: nevis;
+    src: url('/static/website/nevis.ttf')
 }
 
-
-html, body{
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  font-family: 'Noto Sans', sans-serif;
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-p{
-  font-size: 150%;
-  margin-bottom: 50px;
+p {
+    font-size: 150%;
+    margin-bottom: 50px;
 }
 
-h1, h2, h3, h4{
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h1, h2, h3, h4 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1{
-  font-size: 550%;
+h1 {
+    font-size: 550%;
 }
 
-h2{
-  font-size: 300%;
+h2 {
+    font-size: 300%;
 }
 
-h3{
-  font-size: 200%;
+h3 {
+    font-size: 200%;
 }
 
-.jumbo button{
-  margin-top: 10px;
-  padding: 12px 60px;
-  background-color: white;
-  border: 1px #4d79ff;
-  font-size: 110%;
-  border-radius: 40px;
-  font-family: nevis;
-  background-color: #4d79ff;
-  color:white;
-  font-family: inherit;
-  font-weight: 700;
-
-}
-
-.secondary{
-  background-color:#4d79ff;
-}
-
-.emphasis{
-  color:#4d79ff;
-}
-
-.white{
-  color: white;
-}
-
-.jumbo{
-  /*background-size: 130% 180%;*/
-  background-size: cover;
-  background-position: left center;
-  box-shadow: 1px 1px 4px grey;
-  height: 600px;
-}
-
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.jumbo-text{
-  text-align:center;
-  margin: 0 auto;
-  padding: 40px;
+.jumbo button {
+    margin-top: 10px;
+    padding: 12px 60px;
+    background-color: white;
+    border: 1px #4d79ff;
+    font-size: 110%;
+    border-radius: 40px;
+    font-family: nevis;
+    background-color: #4d79ff;
+    color: white;
+    font-family: inherit;
+    font-weight: 700;
 
 }
 
-.jumbo-text h1, .jumbo-text h2{
-  font-weight: 600;
-  margin: 30px;
+.secondary {
+    background-color: #4d79ff;
 }
 
-
-.header{
-  position: absolute;
-  height: 50px;
-  width: 100%;
+.emphasis {
+    color: #4d79ff;
 }
 
-hr{
-  border-style:none;
-  /*box-shadow: 1px 0px 5px grey;*/
-  width: 70%;
-  margin: 0 auto;
-  height: 1px;
-  background-color: black;
-  /*background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));*/
+.white {
+    color: white;
 }
 
-
-.jumbo hr{
-  width: 100%;
-  /*background-color:white*/
+.jumbo {
+    /*background-size: 130% 180%;*/
+    background-size: cover;
+    background-position: left center;
+    box-shadow: 1px 1px 4px grey;
+    height: 600px;
 }
 
-
-.hero{
-  font-size: 750%;
-  font-family: nevis;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.center{
-  margin: 0 auto;
+.jumbo-text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+
 }
 
-.section{
-  padding: 50px 0;
-  height: auto;
-  overflow: auto;
+.jumbo-text h1, .jumbo-text h2 {
+    font-weight: 600;
+    margin: 30px;
+}
+
+.header {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
+
+hr {
+    border-style: none;
+    /*box-shadow: 1px 0px 5px grey;*/
+    width: 70%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: black;
+    /*background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));*/
+}
+
+.jumbo hr {
+    width: 100%;
+    /*background-color:white*/
+}
+
+.hero {
+    font-size: 750%;
+    font-family: nevis;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0;
+    height: auto;
+    overflow: auto;
 }
 
 /*------------------------*/
 
-.content-block-medium{
-  width: 80%;
-  margin: 0 auto;
+.content-block-medium {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.content-column-2{
-  width: 50%;
-  display: inline-block;
-  margin-right: -4px;
-  vertical-align:top;
-  padding: 30px 0;
-
-}
-
-.content-column-3{
-  vertical-align:top;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 33.33%;
-  margin-right: -4px;
-  display: inline-block;
-  text-align: center;
-}
-
-.content-column-icon{
-  display: block;
-  padding: 20px 0px;
-  margin: 0 auto;
-  height: 100px;
-  width: 100px;
-}
-
-.info-row{
-  width:80%;
-  width:50%;
-  margin: 0 auto;
-  text-align: center
-}
-
-#front-text{
-  position: relative;
-  color: white;
-  text-align:center;
-  top: 30%;
-}
-
-.nav{
-  position:fixed;
-  width: 100%;
-  background-color:white;
-  z-index: 3;
-  overflow: auto;
-  box-shadow: 1px 2px 4px grey;
-  height: 90px;
+.content-column-2 {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    padding: 30px 0;
 
 }
 
-.nav img{
-    display:inline-block;
-    position:relative;
+.content-column-3 {
+    vertical-align: top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 33.33%;
+    margin-right: -4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.content-column-icon {
+    display: block;
+    padding: 20px 0px;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+}
+
+.info-row {
+    width: 80%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center
+}
+
+#front-text {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 30%;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    overflow: auto;
+    box-shadow: 1px 2px 4px grey;
+    height: 90px;
+
+}
+
+.nav img {
+    display: inline-block;
+    position: relative;
     height: 100%;
     width: 220px;
 }
 
-.nav ul{
+.nav ul {
     height: 100%;
-  margin: 0;
-  display: inline-block;
-  list-style: none;
-  padding: 0;
-  width: 800px;
+    margin: 0;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    width: 800px;
     vertical-align: top;
 }
 
 .nav ul li {
-  height: 30px;
-  line-height: 40px;
-  white-space: nowrap;
-  text-align: center;
+    height: 30px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-align: center;
 }
 
-.nav-icon{
-  height: 55px;
-  width: 55px;
-  position: fixed;
-  top: 40px;
-  left: 60px;
+.nav-icon {
+    height: 55px;
+    width: 55px;
+    position: fixed;
+    top: 40px;
+    left: 60px;
 }
 
-.nav{
-  position:relative;
-  right: 30px;
-  /*left: 30px;*/
-  list-style: none;
-  float: right;
+.nav {
+    position: relative;
+    right: 30px;
+    /*left: 30px;*/
+    list-style: none;
+    float: right;
 }
 
 .nav li {
-  display: inline-block;
-  padding: 0 5px;
-  font-size: 110%;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 110%;
 }
 
-.nav ul li a{
-  display: block;
-  font-family: nevis;
-  text-decoration: none;
-  color: black;
-  height: 100%;
-  width: 100%;
-  transition: 0.5s ease;
+.nav ul li a {
+    display: block;
+    font-family: nevis;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease;
 }
 
-.nav ul li a:hover{
-  background-color: #e6e6e6;
+.nav ul li a:hover {
+    background-color: #e6e6e6;
 }
 
-
-.contact-form{
-  vertical-align: top;
-  width: 40%;
-  height: 100%;
-  display: inline-block;
-  margin-right: -4px;
-  color: white;
+.contact-form {
+    vertical-align: top;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    color: white;
 }
 
-.contact-form form{
-  padding-top: 20px;
-  width: 80%;
-  margin: 0 auto;
+.contact-form form {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.contact-form form label{
-  display: block;
-  font-size: 150%;
-  font-family: nevis;
-  padding: 12px;
-
-}
-
-.nav li a{
-  color:inherit;
-  text-decoration: none;
-  transition: 0.5s all ease;
-}
-
-.nav li a:hover{
-  color:white;
+.contact-form form label {
+    display: block;
+    font-size: 150%;
+    font-family: nevis;
+    padding: 12px;
 
 }
 
-.nav li a:visited{
+.nav li a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.5s all ease;
 }
 
-.footer{
-  background-color: #4d79ff;
-  position:relative;
-  z-index: -1
-}
-.services{
-  list-style-type: none;
-  padding-top: 0;
-}
-
-.services li{
-  font-size: 125%;
-  padding: 10px 0;
-}
-
-#map{
-  vertical-align: top;
-  display: inline-block;
-  margin-right: -4px;
-  width: 100%;
-  height: 100%;
-  /*box-shadow: 3px 3px 6px grey;*/
-}
-
-.footer-contact{
-  top: 1px;
-  position: absolute;
-  z-index: 4;
-  top: 25%;
-  background-color:white;
-  padding: 30px;
-  left: 5%;
-  box-shadow: 4px 4px 15px grey;
+.nav li a:hover {
+    color: white;
 
 }
 
-.footer-contact ul{
-  margin: 0 auto;
-  width: 90%;
-  list-style-type: none;
-  position: relative;
-  padding-left: 0;
+.nav li a:visited {
+}
+
+.footer {
+    background-color: #4d79ff;
+    position: relative;
+    z-index: -1
+}
+
+.services {
+    list-style-type: none;
+    padding-top: 0;
+}
+
+.services li {
+    font-size: 125%;
+    padding: 10px 0;
+}
+
+#map {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    width: 100%;
+    height: 100%;
+    /*box-shadow: 3px 3px 6px grey;*/
+}
+
+.footer-contact {
+    top: 1px;
+    position: absolute;
+    z-index: 4;
+    top: 25%;
+    background-color: white;
+    padding: 30px;
+    left: 5%;
+    box-shadow: 4px 4px 15px grey;
 
 }
 
-.footer-contact ul li{
-  padding: 10px 0;
-  font-size: 120%;
-  font-weight: 500;
+.footer-contact ul {
+    margin: 0 auto;
+    width: 90%;
+    list-style-type: none;
+    position: relative;
+    padding-left: 0;
+
 }
 
-.footer-contact ul li img{
-  transform: translateY(6px);
-  padding-right: 10px;
-  height: 25px;
-  width: 25px;
-  display: inline-block;
+.footer-contact ul li {
+    padding: 10px 0;
+    font-size: 120%;
+    font-weight: 500;
 }
 
-footer{
-    display:flex;
+.footer-contact ul li img {
+    transform: translateY(6px);
+    padding-right: 10px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align:center;
-    color:white;
-    background-color:black;
+    text-align: center;
+    color: white;
+    background-color: black;
     height: 50px;
 }
 
-a{
-    color:inherit;
+a {
+    color: inherit;
     text-decoration: none;
 }
 
-a:visited{
-    color:inherit;
+a:visited {
+    color: inherit;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
 }
-<<<<<<< HEAD
-=======
 
-.testimonial{
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
+.testimonial {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
->>>>>>> 324001e251cdafc1129ccc7cbc9e0e40662a39ca
+
+@media only screen and (max-width: 900px) {
+    html, body{
+        font-size: 80%;
+    }
+
+    h2.jumbo-header{
+        font-size: 200%;
+    }
+}

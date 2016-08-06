@@ -422,24 +422,24 @@ body{
     text-align: center;
 }
 
-.member{
+.bandmember{
     width: 33.33%;
     display: inline-block;
     margin-right: -4px
 
 }
 
-.member img{
+.bandmember img{
     width: 80%;
     display: block;
     margin: auto;
 }
 
-.member p{
+.bandmember p{
     text-align:center;
 }
 
-.member p.name{
+.bandmember p.name{
     font-weight: 800;
 }
 
@@ -453,4 +453,46 @@ body{
     width: 60%;
     margin: 0 auto;
     text-align: center;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 900px) {
+    body, html{
+        font-size: smaller;
+    }
+
+    p{
+        font-size: 150%;
+    }
+
+    .jumbo{
+        min-height: 400px;
+    }
+
+    .section-divider{
+        display: none;
+    }
+
+    .content-column-3{
+        font-size: 120%;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header ul{
+        font-size: 150%;
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .bandmember{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
 }
