@@ -1,4 +1,4 @@
-#!/Users/Conner/ad/deploy/alta/venv/bin/python
+#!/Users/Conner/ad/projects/deploy/alta/venv/bin/python
 """PILdriver, an image-processing calculator using PIL.
 
 An instance of class PILDriver is essentially a software stack machine

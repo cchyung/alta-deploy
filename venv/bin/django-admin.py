@@ -1,4 +1,4 @@
-#!/Users/Conner/ad/deploy/alta/venv/bin/python
+#!/Users/Conner/ad/projects/deploy/alta/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":

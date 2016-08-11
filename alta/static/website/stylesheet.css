@@ -425,12 +425,14 @@ body{
 .bandmember{
     width: 33.33%;
     display: inline-block;
-    margin-right: -4px
+    margin-right: -4px;
+    vertical-align: top;
 
 }
 
 .bandmember img{
     width: 80%;
+    height: auto;
     display: block;
     margin: auto;
 }

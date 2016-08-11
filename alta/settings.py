@@ -30,7 +30,10 @@ SECRET_KEY = '@(6=4#nlvt#xyr78ui2#cm4@%i6%!r$n_w38$1g1r^3vwi*k%@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'altatutoring.com',
+    '138.68.24.33'
+]
 
 
 # Application definition

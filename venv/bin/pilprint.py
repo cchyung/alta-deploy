@@ -1,4 +1,4 @@
-#!/Users/Conner/ad/deploy/alta/venv/bin/python
+#!/Users/Conner/ad/projects/deploy/alta/venv/bin/python
 #
 # The Python Imaging Library.
 # $Id$

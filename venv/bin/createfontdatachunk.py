@@ -1,4 +1,4 @@
-#!/Users/Conner/ad/deploy/alta/venv/bin/python
+#!/Users/Conner/ad/projects/deploy/alta/venv/bin/python
 from __future__ import print_function
 import base64
 import os
