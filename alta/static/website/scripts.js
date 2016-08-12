@@ -14,7 +14,6 @@ function navbarController() {
     $(window).on("scroll", function () {
             var scrollPosition = scrollY || pageYOffset;
             if (scrollPosition > triggerPosition) {
-                console.log("triggered!")
                 $('header').addClass('nav-fixed');
                 var navHeight = $(".nav-container").css('height');
                 $('.nav-ghost').height(navHeight);

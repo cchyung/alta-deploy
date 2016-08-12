@@ -103,7 +103,6 @@ header img{
 }
 
 header ul{
-    float: right;
     display: inline-block;
     list-style: none;
     margin: 0;
@@ -112,9 +111,6 @@ header ul{
     vertical-align: top;
     width: 60%;
     padding:0;
-    margin-left: auto;
-
-
 
 }
 
@@ -445,8 +441,8 @@ body{
 }
 
 .bandmember img{
-    width: 80%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     display: block;
     margin: auto;
 }
