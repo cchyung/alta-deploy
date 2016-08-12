@@ -4,7 +4,6 @@
     <list default="true" id="24fc847e-e997-4fd8-89b1-0e4aa154ba40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.db" afterPath="$PROJECT_DIR$/project.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alta/static/website/stylesheet.css" afterPath="$PROJECT_DIR$/alta/static/website/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alta/templates/home.html" afterPath="$PROJECT_DIR$/alta/templates/home.html" />
     </list>
     <ignored path="alta.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,8 +113,8 @@
           <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alta/static/website/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+                <state relative-caret-position="355">
+                  <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -1156,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alta/static/website/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        <state relative-caret-position="355">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding />
         </state>
       </provider>
