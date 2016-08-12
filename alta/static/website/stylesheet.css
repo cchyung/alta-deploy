@@ -455,6 +455,14 @@ body{
     font-weight: 800;
 }
 
+.bandmember h2{
+    margin-bottom: 10px;
+}
+
+.bandmember h3{
+    margin-top: 10px;
+}
+
 .testimonials{
     width: 80%;
     margin: 0 auto;
