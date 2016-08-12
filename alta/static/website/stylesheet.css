@@ -38,7 +38,8 @@ h1, h2, h3, h4 {
     color:#4d79ff;
 }
 
-button{
+.button{
+    text-decoration: none;
     padding: 12px 60px;
     outline: solid 1px #4d79ff;
     background-color: white;
@@ -55,6 +56,15 @@ button{
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+
+.jumbo .button{
+    font-size: 40%;
+    margin: 30px auto;
+    display: block;
+    width: 20%;
+}
+
+
 
 .page{
 }
@@ -205,7 +215,7 @@ hr{
 
 }
 
-.section-divider button{
+.section-divider .button{
     margin-left: 40px;
     padding: 10px 20px;
     font-size: 110%;
@@ -214,7 +224,7 @@ hr{
 
 }
 
-.section-divider button:hover{
+.section-divider .button:hover{
     color: #4d79ff;
     background-color: #acc4ff;
 }
@@ -408,7 +418,7 @@ body{
     border: 1px solid rgba(81, 203, 238, 1);
 }
 
-.contact button{
+.contact .button{
     display: block;
     margin: 10px auto;
     font-size: 100%;
