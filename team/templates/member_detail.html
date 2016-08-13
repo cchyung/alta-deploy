@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load staticfiles cms_tags %}
+{% block main %}
+    <div class="jumbo" style="background-image:url({% static 'website/student.jpg' %})">
+        <h1 class="jumbo-text jumbo-text-solid" style="padding: 15px 0;">The Team</h1>
+    </div>
+    <div class="content-block-medium team-detail">
+        <img src="{{ member.profile_picture.url }}">
+        <h1>{{ member.fullname }}</h1>
+        <h2>{{ member.title }}</h2>
+        <p>{{ member.bio }}</p>
+    </div>
+{% endblock %}

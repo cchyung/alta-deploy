@@ -1,5 +1,5 @@
-           <div class="bandmember">
-                <img class="bandmember-image" src="{{ instance.member.profile_picture.url }}">
-                <h2 class="bandmember-name">{{ instance.member.fullname }}</h2>
-                <h3 class="bandmember-title">{{ instance.member.title }}</h3>
-           </div>
+   <div class="bandmember">
+        <img class="bandmember-image" src="{{ instance.member.profile_picture.url }}">
+        <h2 class="bandmember-name"><a href='{% url 'team:detail' instance.member.slug %}'>{{ instance.member.fullname }}</a></h2>
+        <h3 class="bandmember-title">{{ instance.member.title }}</h3>
+   </div>

@@ -4,4 +4,8 @@ from django.contrib import admin
 from .models import Member
 
 
-admin.site.register(Member)
+class MemberAdmin(admin.ModelAdmin):
+    fields = ('slug', 'fullname', 'title', 'bio', 'profile_picture')
+    readonly_fields = ('slug',)
+
+admin.site.register(Member, MemberAdmin)

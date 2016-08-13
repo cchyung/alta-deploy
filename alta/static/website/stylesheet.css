@@ -475,6 +475,16 @@ body{
     text-align: center;
 }
 
+.team-detail{
+    padding: 40px 0;
+}
+
+.team-detail img{
+    height: 200px;
+    width: 200px;
+
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 900px) {
