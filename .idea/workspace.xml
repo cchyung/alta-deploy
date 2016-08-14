@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24fc847e-e997-4fd8-89b1-0e4aa154ba40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.db" afterPath="$PROJECT_DIR$/project.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alta/static/website/stylesheet.css" afterPath="$PROJECT_DIR$/alta/static/website/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alta/urls.py" afterPath="$PROJECT_DIR$/alta/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team/templates/member_plugin.html" afterPath="$PROJECT_DIR$/team/templates/member_plugin.html" />
     </list>
     <ignored path="alta.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,8 +157,8 @@
           <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alta/static/website/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="470" column="31" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="31" />
+                <state relative-caret-position="-35">
+                  <caret line="462" column="21" selection-start-line="462" selection-start-column="21" selection-end-line="462" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -1111,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alta/static/website/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="470" column="31" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="31" />
+        <state relative-caret-position="-35">
+          <caret line="462" column="21" selection-start-line="462" selection-start-column="21" selection-end-line="462" selection-end-column="21" />
           <folding />
         </state>
       </provider>
