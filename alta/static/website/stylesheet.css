@@ -463,6 +463,19 @@ body{
     margin-top: 10px;
 }
 
+.bandmember a{
+    text-decoration: none;
+}
+
+.bandmember a:hover{
+    text-decoration: underline;
+}
+
+.bandmember a:visited{
+    color:inherit;
+
+}
+
 .testimonials{
     width: 80%;
     margin: 0 auto;
