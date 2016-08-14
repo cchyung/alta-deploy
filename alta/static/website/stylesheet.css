@@ -465,6 +465,7 @@ body{
 
 .bandmember a{
     text-decoration: none;
+    color: inherit;
 }
 
 .bandmember a:hover{
