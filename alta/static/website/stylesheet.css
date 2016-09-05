@@ -112,6 +112,7 @@ header{
     background-color:white;
     box-shadow: 1px 1px 5px grey;
     transition: all 0.5s ease;
+    z-index: 10;
 }
 
 header.nav-fixed{
@@ -499,10 +500,6 @@ body{
         display: block;
         width: 60%;
         margin: 0 auto;
-    }
-
-    .contact-column a{
-        font-size: 120%;
     }
 
     header ul{
