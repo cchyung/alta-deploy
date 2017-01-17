@@ -1,3 +1,13 @@
+# @Author: Conner Chyung <conner>
+# @Date:   2016-08-13T12:07:26-07:00
+# @Email:  conner@axdstudios.com
+# @Filename: settings.py
+# @Last modified by:   conner
+# @Last modified time: 2017-01-17T10:03:11-08:00
+# @Copyright: Axiom Digital ltd.
+
+
+
 import os
 gettext = lambda s: s
 DATA_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -28,7 +38,7 @@ from django.utils.translation import ugettext_lazy as _
 SECRET_KEY = '@(6=4#nlvt#xyr78ui2#cm4@%i6%!r$n_w38$1g1r^3vwi*k%@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'altatutoring.com',
@@ -207,7 +217,7 @@ DATABASES = {
 }
 
 MIGRATION_MODULES = {
-    
+
 }
 
 THUMBNAIL_PROCESSORS = (
